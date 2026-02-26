@@ -53,7 +53,7 @@ namespace InventoryManagement.Services
             string temp = "";
             foreach (var product in products.Values)
             {
-                if (product.Stock < threshold) {
+                if (product.Stock <= threshold) {
                    temp += product.Name.ToString() + " , ";
                 }
                     
