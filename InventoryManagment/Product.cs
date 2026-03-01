@@ -36,11 +36,6 @@
         {
             Price = price;
         }
-        public void IncStock(double stock)
-        {
-
-        }
-        public void DecStock(double stock)
-        { }
+       
         }
 }

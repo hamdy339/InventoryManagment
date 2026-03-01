@@ -38,7 +38,7 @@ while (true)
             while (true)
             {
                 Console.Write("Price: ");
-                if (double.TryParse(Console.ReadLine(), out price) && price >= 0)
+                if (double.TryParse(Console.ReadLine(), out price) && price > 0)
                     break;
 
                 Console.WriteLine("Invalid price. Enter a valid number.");
